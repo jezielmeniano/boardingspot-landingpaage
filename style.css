@@ -1,0 +1,93 @@
+.nav-link:hover{
+  background-color: #AAB8C2;
+}
+.nav-link:active{
+  background-color: #E1E8ED;
+}
+.button-preferences{
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+.nav-item a{
+  color:black;
+}
+
+/* style.css */
+.carousel {
+  height: 500px; /* Change this value to your desired height */
+  overflow: hidden; /* Prevent overflow if the images are larger */
+}
+
+.carousel-item {
+  height: 100%; /* Ensure the carousel items take full height */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%; /* Make images fill the container */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+.paper-form {
+  width: 794px; /* A4 width in pixels */
+  height: auto; /* A4 height in pixels */
+  padding: 40px; /* Adds padding for content */
+  background-color: #fff; /* White background for paper look */
+  border: 1px solid #ddd; /* Light border for paper edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 4px; /* Rounded corners */
+  overflow: hidden; /* Ensures content stays within bounds */
+}
+
+/*Boarding House form add listing*/
+.paper-form-boarding-house{
+  width: 1000px; /* A4 width in pixels */
+  height: auto; /* A4 height in pixels */
+  padding: 40px; /* Adds padding for content */
+  background-color: #fff; /* White background for paper look */
+  border: 1px solid #ddd; /* Light border for paper edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 4px; /* Rounded corners */
+  overflow: hidden; /* Ensures content stays within bounds */
+}
+
+/*boarding house details paper form*/
+.paper-form-details{
+  width: 1000px; /* A4 width in pixels */
+  height: auto; /* A4 height in pixels */
+  padding: 30px; /* Adds padding for content */
+  background-color: #fff; /* White background for paper look */
+  border: 1px solid #ddd; /* Light border for paper edges */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 4px; /* Rounded corners */
+  overflow: hidden; /* Ensures content stays within bounds */
+}
+/*Bh font size address*/
+.bh-fontsize{
+  font-size: 14px;
+  color: #657786;
+}
+/*call-button for boarding house*/
+.button-bhdetail{
+  background-color: rgb(70, 165, 0);
+  border:none;
+  padding: 13px 20px 13px;
+  border-radius: 25px;
+  transition: background-color 0.5s;
+}
+.button-bhdetail:hover{
+  background-color: rgb(108, 212, 34);
+}
+/*bh details justify*/
+.text-justify{
+  text-align: justify;
+}
+/*amenities*/
+.amenities .icon-text{
+  align-items: center;
+  display: flex;
+  margin-bottom: 4px;
+}
+.amenities .margin-icon{
+  margin-right: 5px;
+}
